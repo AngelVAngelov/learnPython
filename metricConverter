@@ -1,0 +1,14 @@
+entry1 = int(input())
+entry2 = str(input())
+exitMetric = str(input())
+
+cm = 1 / 100
+mi = 1 / 0.000621371192
+inch = 1 / 39.3700787
+
+if entry2 == 'cm':
+    print(entry1 * cm / mi, exitMetric)
+elif entry2 == 'mi':
+    print(entry1 * mi)
+elif entry2 == 'in':
+    print(entry1 * inch)
