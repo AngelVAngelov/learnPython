@@ -1,14 +1,117 @@
-entry1 = int(input())
+entry1 = float(input())
 entry2 = str(input())
 exitMetric = str(input())
 
-cm = 1 / 100
-mi = 1 / 0.000621371192
-inch = 1 / 39.3700787
+meter = 1
+cm = meter / 100
+mi = meter / 0.000621371192
+inch = meter / 39.3700787
+km = meter / 0.001
+ft = meter / 3.2808399
+yd = meter / 1.0936133
+mm = meter / 1000
+
+if entry2 == 'mi':
+    print(entry1 * mi / cm, exitMetric)
+elif entry2 == 'mi':
+    print(entry1 * mi / inch, exitMetric)
+elif entry2 == 'mi':
+    print(entry1 * mi / km, exitMetric)
+elif entry2 == 'mi':
+    print(entry1 * mi / ft, exitMetric)
+elif entry2 == 'mi':
+    print(entry1 * mi / yd, exitMetric)
+elif entry2 == 'mi':
+    print(entry1 * mi / mm, exitMetric)
+elif entry2 == 'mi':
+    print(entry1 * mi / meter, exitMetric)
 
 if entry2 == 'cm':
     print(entry1 * cm / mi, exitMetric)
-elif entry2 == 'mi':
-    print(entry1 * mi)
-elif entry2 == 'in':
-    print(entry1 * inch)
+elif entry2 == 'cm':
+    print(entry1 * cm / inch, exitMetric)
+elif entry2 == 'cm':
+    print(entry1 * cm / km, exitMetric)
+elif entry2 == 'cm':
+    print(entry1 * cm / ft, exitMetric)
+elif entry2 == 'cm':
+    print(entry1 * cm / yd, exitMetric)
+elif entry2 == 'cm':
+    print(entry1 * cm / mm, exitMetric)
+elif entry2 == 'cm':
+    print(entry1 * cm / meter, exitMetric)
+
+if entry2 == 'inch':
+    print(entry1 * inch / mi, exitMetric)
+elif entry2 == 'inch':
+    print(entry1 * inch / cm, exitMetric)
+elif entry2 == 'inch':
+    print(entry1 * inch / km, exitMetric)
+elif entry2 == 'inch':
+    print(entry1 * inch / ft, exitMetric)
+elif entry2 == 'inch':
+    print(entry1 * inch / yd, exitMetric)
+elif entry2 == 'inch':
+    print(entry1 * inch / mm, exitMetric)
+elif entry2 == 'inch':
+    print(entry1 * inch / meter, exitMetric)
+
+if entry2 == 'km':
+    print(entry1 * km / mi, exitMetric)
+elif entry2 == 'km':
+    print(entry1 * km / cm, exitMetric)
+elif entry2 == 'km':
+    print(entry1 * km / inch, exitMetric)
+elif entry2 == 'km':
+    print(entry1 * km / ft, exitMetric)
+elif entry2 == 'km':
+    print(entry1 * km / yd, exitMetric)
+elif entry2 == 'km':
+    print(entry1 * km / mm, exitMetric)
+elif entry2 == 'km':
+    print(entry1 * km / meter, exitMetric)
+
+if entry2 == 'ft':
+    print(entry1 * ft / mi, exitMetric)
+elif entry2 == 'ft':
+    print(entry1 * ft / cm, exitMetric)
+elif entry2 == 'ft':
+    print(entry1 * ft / km, exitMetric)
+elif entry2 == 'ft':
+    print(entry1 * ft / inch, exitMetric)
+elif entry2 == 'ft':
+    print(entry1 * ft / yd, exitMetric)
+elif entry2 == 'ft':
+    print(entry1 * ft / mm, exitMetric)
+elif entry2 == 'ft':
+    print(entry1 * ft / meter, exitMetric)
+
+if entry2 == 'yd':
+    print(entry1 * yd / mi, exitMetric)
+elif entry2 == 'yd':
+    print(entry1 * yd / cm, exitMetric)
+elif entry2 == 'yd':
+    print(entry1 * yd / km, exitMetric)
+elif entry2 == 'yd':
+    print(entry1 * yd / ft, exitMetric)
+elif entry2 == 'yd':
+    print(entry1 * yd / inch, exitMetric)
+elif entry2 == 'yd':
+    print(entry1 * yd / mm, exitMetric)
+elif entry2 == 'yd':
+    print(entry1 * yd / meter, exitMetric)
+
+if entry2 == 'mm':
+    print(entry1 * mm / mi, exitMetric)
+elif entry2 == 'mm':
+    print(entry1 * mm / cm, exitMetric)
+elif entry2 == 'mm':
+    print(entry1 * mm / km, exitMetric)
+elif entry2 == 'mm':
+    print(entry1 * mm / ft, exitMetric)
+elif entry2 == 'mm':
+    print(entry1 * mm / yd, exitMetric)
+elif entry2 == 'mm':
+    print(entry1 * mm / inch, exitMetric)
+elif entry2 == 'mm':
+    print(entry1 * mm / meter, exitMetric)
